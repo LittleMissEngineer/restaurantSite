@@ -9,7 +9,7 @@ header{
     color:white;
     padding:20px;
     width:95%;
-
+    z-index: 2;
 }
 
 .logo{
