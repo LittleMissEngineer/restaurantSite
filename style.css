@@ -89,7 +89,7 @@ strong{
 }
 
 .bake-pun-title{
-    font-family: 'PT Sans', sans-serif; 
+    font-family: 'Rozha One', serif;
     font-size: 3rem;
     text-transform: capitalize;
     margin: 0.5rem ,0,  3rem;
@@ -112,3 +112,13 @@ p{
     font-weight: 700;
 }
 
+.video-img{
+    max-width:350px;
+    height:400px;
+    display:block;
+    background-image:url("https://images.pexels.com/photos/784631/pexels-photo-784631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    padding-left: 200px;
+}
