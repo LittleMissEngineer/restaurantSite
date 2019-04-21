@@ -68,8 +68,8 @@ h1{
 }
 .contact-info{
     color:white;
-    font-size: 0.8 rem;
-    line-height: 1.5 rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
 }
 
 h2{
@@ -81,3 +81,34 @@ h2{
 strong{
     font-weight: 700;
 }
+
+.comp-title{
+    color:grey;
+    font-size:1.1rem;
+    margin: 0.5rem ,0,  1rem;
+}
+
+.bake-pun-title{
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin: 0.5rem ,0,  3rem;
+}
+
+p{
+    color:gray;
+    font-size:1.1rem;
+    line-height: 1.8;
+    margin: 0.5rem , 0 , 3rem;
+}
+
+.quote{
+    color:gray;
+    margin: 0.5rem , 0 , 3rem;
+}
+
+.author{
+    color:black;
+    font-weight: 700;
+}
+
