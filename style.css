@@ -88,11 +88,26 @@ strong{
     margin: 0.5rem ,0,  1rem;
 }
 
+.menu-title{
+    color:grey;
+    font-size:1.1rem;
+    margin: 0.5rem ,0,  1rem;
+    text-align: center;
+}
+
 .bake-pun-title{
     font-family: 'Rozha One', serif;
     font-size: 3rem;
     text-transform: capitalize;
     margin: 0.5rem ,0,  3rem;
+}
+
+.menu-header{
+    font-family: 'Rozha One', serif;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin: 0.5rem ,0,  3rem;
+    text-align: center;
 }
 
 p{
@@ -121,4 +136,66 @@ p{
     background-size:cover;
     position: relative;
     padding-left: 200px;
+}
+
+.specialMenu{
+    padding:100px 0;
+    background:#fafafa;
+
+}
+
+.row{
+    padding:50px 0px;
+}
+
+.box{
+background: white;
+padding: 20px;
+}
+
+.box-image{
+    width:100%;
+    height: 200px;
+    background-image: linear-gradient(130deg, rgba(0,0,0,.005)0 , #000 150%), url("https://cdn.pixabay.com/photo/2016/06/12/15/03/cupcakes-1452178_1280.jpg");
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.price-circle{
+    box-sizing: border-box;
+    font-family: 'Rozha One', serif;
+    font-size:2rem;
+    background:white;
+    border:10px solid rgba(255,255,255,.7);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left:50%;
+    transform: translate(-50% , 50%);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.41);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.41);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.41);
+}
+
+.food-title{
+    display:block;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+    padding:20px 0 10px;
+}
+
+.details{
+    font-weight: 100;
+    font-size:0.8rem;
+    text-align: center;
+    line-height: 1.5;
 }
