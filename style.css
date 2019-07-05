@@ -31,6 +31,19 @@ a{
     color: white;
     text-decoration: none;
     padding:0px 10px;
+    transition: 0.3s ease-in-out;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#51561E;
+    
+}
+
+
+.btn-outline-secondary:hover{
+    background:#3F2D24;
+    color:white;
 }
 
 .topImg{
@@ -140,8 +153,10 @@ p{
 
 .specialMenu{
     padding:100px 0;
-    background:#fafafa;
-
+   /* background:#fafafa; */
+   
+    /* Background pattern from Toptal Subtle Patterns */
+background-image: url(white-waves.png);
 }
 
 .row{
