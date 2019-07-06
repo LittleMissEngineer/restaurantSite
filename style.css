@@ -178,6 +178,26 @@ padding: 20px;
     margin-bottom: 50px;
 }
 
+
+.box-second-image{
+    width:100%;
+    height: 200px;
+    background-image: linear-gradient(130deg, rgba(0,0,0,.005)0 , #000 150%), url("https://images.pexels.com/photos/1055270/pexels-photo-1055270.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.box-third-image{
+    width:100%;
+    height: 200px;
+    background-image: linear-gradient(130deg, rgba(0,0,0,.005)0 , #000 150%), url("https://images.pexels.com/photos/2525682/pexels-photo-2525682.png?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    margin-bottom: 50px;
+}
 .price-circle{
     box-sizing: border-box;
     font-family: 'Rozha One', serif;
@@ -254,5 +274,13 @@ padding: 15px 0;
     text-align: center;
     display:block;
     
+}
+
+.footer{
+    padding: 180px 0;
+    background-image: linear-gradient(130deg, rgba(0,0,0,.005)0 , #000 150%), url("https://images.pexels.com/photos/271082/pexels-photo-271082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-size:cover;
+    position: relative;
 }
 
