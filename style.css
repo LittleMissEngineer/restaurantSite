@@ -106,6 +106,7 @@ strong{
     font-size:1.1rem;
     margin: 0.5rem ,0,  1rem;
     text-align: center;
+    margin-top: 3%;
 }
 
 .bake-pun-title{
@@ -121,6 +122,7 @@ strong{
     text-transform: capitalize;
     margin: 0.5rem ,0,  3rem;
     text-align: center;
+    margin-top: 5%;
 }
 
 p{
@@ -276,11 +278,69 @@ padding: 15px 0;
     
 }
 
-.footer{
-    padding: 180px 0;
-    background-image: linear-gradient(130deg, rgba(0,0,0,.005)0 , #000 150%), url("https://images.pexels.com/photos/271082/pexels-photo-271082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+.chef-img{
+    max-width:350px;
+    height:400px;
+    display:block;
+    background-image:url("http://pngimg.com/uploads/chef/chef_PNG179.png");
     background-position: center;
     background-size:cover;
     position: relative;
+    padding-left: 200px;
 }
 
+.restaurantNews{
+padding:100px 0;
+background-image: url(white-waves.png);
+}
+
+.order-container{
+    height:400px;
+    display:block;
+    background-size: cover;
+    }
+
+
+.cupcakeFlavor_dropdown{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.size_dropdown{
+    margin-left: 130px;
+  
+}
+
+button{
+    margin-left: 43%;
+    margin-top:3%;
+    background-color: #474040; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.contactUs{
+    padding:100px 0;
+    background-image: url(white-waves.png);
+    }
+
+    .contact-container{
+        height:400px;
+        display:block;
+        background-size: cover;
+        background-color: white;
+        }
+
+        .locationFont{
+            font-family: 'Rozha One', serif;
+        }
+
+        .contact-right-side{
+            margin-left: 10%;
+            margin-bottom:5%;
+        }
