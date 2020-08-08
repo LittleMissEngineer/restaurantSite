@@ -331,7 +331,6 @@ button{
 
     .contact-container{
         height:400px;
-        display:block;
         background-size: cover;
         background-color: white;
         }
@@ -341,6 +340,16 @@ button{
         }
 
         .contact-right-side{
-            margin-left: 10%;
-            margin-bottom:5%;
+            margin-left: 12%;
+            background-color: lightgray;
+            max-width: 400px;
+
         }
+
+        .contact-container{
+            background:url("pexels-lorenzo-240834.jpg");
+            background-size: cover;
+            position: relative;
+        }
+
+    
