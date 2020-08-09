@@ -107,7 +107,6 @@ strong{
     font-size:1.1rem;
     margin: 0.5rem ,0,  1rem;
     text-align: center;
-    margin-top: 3%;
 }
 
 .bake-pun-title{
@@ -326,7 +325,6 @@ button{
 }
 
 .contactUs{
-    padding:100px 0;
     background-image: url(white-waves.png);
     }
 
@@ -367,14 +365,27 @@ button{
             max-width: 100%;
         }
 
-        .bottomSectionBackground{
-            background-color: black;
-            height:400px;
-            max-width: 100%;
-            position: relative;
-            top:-100px;
+        
+        .bottomSection{
+            padding:100px 0px;
+            background: black;
+            text-align: center;
 
         }
 
+        .social-media{
+            color:white;
+            position: relative;
+            bottom:-30px;
+            right:20px;
+        }
+
+       li{
+           display: inline-block;
+       }
+
+       a{
+           color:white;
+       }
 
     
