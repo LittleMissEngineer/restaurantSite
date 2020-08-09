@@ -7,6 +7,7 @@ body{
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
+    max-height: 100%;
 }
 header{
     position: absolute;
@@ -340,16 +341,40 @@ button{
         }
 
         .contact-right-side{
-            margin-left: 12%;
-            background-color: lightgray;
-            max-width: 400px;
+            margin-left: 22%;
+            margin-top:2%;
+            background-color:lightgray;
+            opacity: 0.75;
+            max-width: 800px;
+            height: 325px;
 
+        }
+
+        .locationDetails{
+            margin-left:5%;
+        }
+
+        .operationHours{
+            margin-left: 60%;
+            position: relative;
+            top:-210px;
         }
 
         .contact-container{
-            background:url("pexels-lorenzo-240834.jpg");
+            background:linear-gradient(130deg, rgba(0,0,0,.005)0 , #000 150%), url("tim-trad-r2NBj6GAJzw-unsplash.jpg");
             background-size: cover;
             position: relative;
+            max-width: 100%;
         }
+
+        .bottomSectionBackground{
+            background-color: black;
+            height:400px;
+            max-width: 100%;
+            position: relative;
+            top:-100px;
+
+        }
+
 
     
